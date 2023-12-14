@@ -1,0 +1,58 @@
+body{
+   background-color:cadetblue ;
+    background-size: cover;
+}
+
+.Navbar {
+    background-color: rgb(54, 54, 64);
+    padding: 10px 0px;
+   
+    width: 100%;
+
+}
+body{
+    margin: 0px;
+}
+
+#link {
+    text-decoration: none;
+    margin: 10px;
+    font-size: large;
+    color: white;
+    margin-right:120px;
+    margin-left: 90px;
+}
+
+ul li {
+    display: inline;
+}
+#h1{
+    color: brown;
+    margin-left: 230px;
+    margin-top: 180px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.Square h2{
+    border: 4px solid rgb(202, 35, 202);
+    height: 200px;
+    width: 200px;
+
+}
+.Square h1{
+    color: black;
+}
+.Circle h2{
+    border: 4px solid green;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   
+}
+.Triangle h2{
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid rgb(153, 24, 153);
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+}
