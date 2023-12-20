@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url('bg5.jpg');
+        background-size: cover;
+    }
+    .div{
+        margin-top: 20%;
+        margin-left: 5%;
+        text-align: center;
+    }
+</style>
+<body>
+  <div class="div">
+    <h1 style="font-size: 50px;">Bio Data</h1>
+
+  <h5 style="font-size:20px ; font-weight: 400;" id="demo"></h5>
+  </div>
+
+  <script>
+    function Person(first, last, age, company, role, salary) {
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.cName = company;
+      this.role = role;
+      this.sal = salary;
+    }
+    const myData = new Person("Pavan", "Kalyan", 22, "Anarghya Communications pvt. ltd.", "jr Software Engineer", 22000);
+    document.getElementById("demo").innerHTML =
+      "My Self " + myData.firstName + myData.lastName + "." + "I am" + " " + myData.age + "yr old." + "I am working as a" + " " + myData.role + " " + "in" + " " + myData.cName + "and I am getting salary" + " " + myData.sal;
+  </script>
+</body>
+
+</html>
